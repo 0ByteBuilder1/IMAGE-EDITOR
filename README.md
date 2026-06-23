@@ -2,6 +2,8 @@
 
 A desktop image editor built with **Python**, **Tkinter**, and **Pillow (PIL)**. It provides a simple GUI for common image editing tasks — adjustments, transforms, cropping, and zooming — with undo/reset support and live thumbnails.
 
+Codtech Intern ID: CITS3134
+
 ## Features
 
 - **File operations**

@@ -4,6 +4,21 @@ A desktop image editor built with **Python**, **Tkinter**, and **Pillow (PIL)**.
 
 Codtech Intern ID: CITS3134
 
+---
+
+## Screenshots and output
+
+<p align="center">
+  <img src="screenshots/main.png" width="45%">
+  <img src="screenshots/demo1.png" width="45%">
+</p>
+<p align="center">
+  <img src="screenshots/demo2.png" width="45%">
+  <img src="screenshots/demo3.png" width="45%">
+</p>
+
+---
+
 ## Features
 
 - **File operations**
@@ -30,11 +45,15 @@ Codtech Intern ID: CITS3134
   - `Ctrl+Z` — Undo
   - `Ctrl+Q` — Quit
 
+---
+
 ## Requirements
 
 - Python 3.x
 - [Pillow](https://pypi.org/project/Pillow/)
 - Tkinter (usually bundled with Python; on Linux you may need to install it separately, e.g. `sudo apt install python3-tk`)
+
+---
 
 ## Installation
 
@@ -56,6 +75,8 @@ python image_editor.py
 4. Click **Save As** or **Save (default folder)** to export your edited image.
 5. Use **Undo** to step back one action, or **Reset** to return to the original image.
 
+---
+
 ## Project Structure
 
 ```
@@ -67,12 +88,18 @@ python image_editor.py
 
 > Note: the default save folder is created relative to the script's location, one level up (`../output/edited_images`), so it lands next to the project root if `image_editor.py` lives inside a `src/` folder.
 
+---
+
 ## Notes
 
 - Brightness/Contrast/Sharpness sliders apply a **live preview only** — they don't permanently modify the image until you Save or perform another operation (like blur, crop, or a transform).
 - Undo supports a single step back (not a full history stack).
 - JPEG exports automatically flatten transparency onto a white background, since JPEG doesn't support alpha channels.
 
+---
+
 ## License
 
 [MIT](LICENSE) — feel free to update this section based on how you'd like to license the project.
+
+---

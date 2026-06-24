@@ -103,3 +103,11 @@ python image_editor.py
 [MIT](LICENSE) — feel free to update this section based on how you'd like to license the project.
 
 ---
+
+## Details
+INTERN ID : CITS3134 | 
+NAME      : YES CHANDRA |
+DURATION  : 4 WEEKS |
+PROJECT NAME : Image Processor (Pillow) |
+
+---
